@@ -1,0 +1,32 @@
+.footer__main{
+    background: var(--color-blue-ligth);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 4%;
+}
+
+.footer__links-container{
+    display: flex;
+}
+
+.footer__link{
+    cursor: pointer;
+    padding-top: 8.4%;
+    font-size: 1.05rem;
+    color: #464646;
+}
+
+.form-container{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.footer__author{
+    text-align: center;
+    padding: 1%;
+}

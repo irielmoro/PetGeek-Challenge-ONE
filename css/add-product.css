@@ -1,0 +1,12 @@
+.add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add__form{
+    width: 58% !important;
+}
+.add__btn{
+    width: 100%;
+}

@@ -1,0 +1,52 @@
+.carousel-inner{
+    background: white;
+}
+.carousel-item{
+    height: 60vh;
+    transition: transform 2s ease, opacity .5s ease-out !important;
+}
+
+.w-100 {
+    height: 130%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 8% !important;
+    opacity: .8 !important;
+}
+
+.carousel-text{
+    width: 40%;
+    position: relative;
+    top: 31%;
+    z-index: 1;
+}
+    .text-img1{
+        left: 57%;
+    }
+    .text-img2{
+        left: 14%;
+    }
+    .text-img3{
+        left: 62%;
+    }
+
+
+.carousel-title{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--color-blue-dark);
+}
+
+.carousel-description{
+    font-size: 1.2rem;
+}
+
+.carousel-img{
+    position: relative;
+    top: -42%;
+}

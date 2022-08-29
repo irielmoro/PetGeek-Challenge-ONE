@@ -1,0 +1,14 @@
+.login{
+    margin: 0;
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.login__form-container, .login__form{
+    align-items: center !important;
+}
+
+.login__btn{
+    width: 100%;
+}

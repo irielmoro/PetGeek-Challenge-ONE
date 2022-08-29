@@ -1,0 +1,20 @@
+.all-products__cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card-icons{
+    height: 0;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-icons img{
+    cursor: pointer;
+    background: #00000057;
+    padding: 2%;
+    width: 24px;
+    height: 24px;
+}
