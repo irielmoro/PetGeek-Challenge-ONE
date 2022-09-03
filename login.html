@@ -38,30 +38,22 @@
 
     <div class="form-container login__form-container">
         <p style=" margin: 0; font-size: 1.1rem; font-weight: 800;">Iniciar Sesion</p>
-        <form class="form-pattern login__form">
+        <form class="form-pattern login__form" data-login-form>
 
             <div class="input-group">
-                <input type="email" id="email" class="input" required> 
+                <input type="email" id="email" class="input" required data-input-email> 
                 <label for="email">Correo Electrónico</label> 
             </div>
             
 
             <div class="input-group">
-                <input type="password" id="password" class="input" required> 
+                <input type="password" id="password" class="input" required data-input-password> 
                 <label for="password">Contraseña</label>
             </div>
             
-        
-            <input type="submit" value="Entrar" class="btn-blue login__btn">
-            <script>
-                const btnLogin = document.querySelector(".login__btn");
-                btnLogin.addEventListener("click", (event)=>{
-                event.preventDefault;
-                console.log(btnLogin)
-                window.location.href="./all-products.html"
-                }
-                );
-            </script>
+       
+
+            <input type="submit" value="Entrar" class="btn-blue login__btn" data-submit-btn>
         </form>    
     </div>
 
@@ -111,5 +103,6 @@
 
     </footer>
     
+    <script src="./js/login.js"></script>
 </body>
 </html>

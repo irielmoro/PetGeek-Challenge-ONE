@@ -41,11 +41,23 @@
     <div class="form-container add__form">
         <form class="form-pattern login__form">
 
-            <div class="input-group">
-                <input type="name" id="name" class="input" required> 
-                <label for="name">URL de la imagen</label> 
+            <div class="input-file-container">
+
+                <div class="input-group-file1 drop-area">
+                    <img src="./img/image-icon.png" alt="image-icon" style="width: 40px;">
+                    <label for="file" id="h2">Arrastre para agregar una imagen para el producto</label>
+                    <input type="file" accept="image/*" id="file" class="input-file" required hidden> 
+                </div>
+    
+                <p> o </p>
+    
+                <div class="input-group-file2">
+                    <label for="file" class="label-file2">Subir archivo</label>
+                    <input type="file" accept="image/*" id="file" class="input-file" required hidden> 
+                </div>
+
             </div>
-            
+            <div id="preview"></div>
 
             <div class="input-group">
                 <input type="name" id="name" class="input" required> 
@@ -116,5 +128,7 @@
 
     </footer>
     
+    <script src="./js/add-product.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
