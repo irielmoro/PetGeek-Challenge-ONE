@@ -21,61 +21,71 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </head>
 <body>
+
     <nav class="menu">
         <div class="menu__container">
-            <a href="index.html"><img src="./img/logo.png" alt="logo" class="menu__logo menu__logo-add-product"></a>
-
+          <a href="index.html"><img src="./img/logo.png" alt="logo" class="menu__logo"></a>
+    
             <div class="menu__search">
                 <input type="text" class="menu__input" placeholder="¿Qué desea buscar?">
                 <i class="fa-solid fa-magnifying-glass menu__search-icon"></i>
             </div >
         </div>
-
-        <a href="all-products.html"  class="menu__login-btn menu__administrator-btn">Menú Administrador</a>
-        <i class="fa-solid fa-magnifying-glass menu__search-mobile"></i>
+    
+    
+        <div class="box menu__search-mobile">
+          <input type="text" class="search-input menu__input" name="txt" onmouseout="this.value = ''; this.blur();">
+          <i class="fas fa-search search-mobile-icon"></i>
+       </div>
+       <a href="all-products.html"  class="menu__login-btn menu__administrator-btn">Menú Administrador</a>
+    
     </nav>
-
 
 <section class="add">
     <h2 class="title-section">Agregar nuevo producto</h2>
     <div class="form-container add__form">
-        <form class="form-pattern login__form">
+        <form class="form-pattern">
 
             <div class="input-file-container">
 
                 <div class="input-group-file1 drop-area">
                     <img src="./img/image-icon.png" alt="image-icon" style="width: 40px;">
                     <label for="file" id="h2">Arrastre para agregar una imagen para el producto</label>
-                    <input type="file" accept="image/*" id="file" class="input-file" required hidden> 
                 </div>
     
                 <p> o </p>
     
                 <div class="input-group-file2">
-                    <label for="file" class="label-file2">Subir archivo</label>
-                    <input type="file" accept="image/*" id="file" class="input-file" required hidden> 
+                    <a class="btn-file2">Subir archivo</a>
+                    <input type="file" accept="image/*" id="file" class="input-file" required style="width: 0;height: 0;opacity: 0;">
                 </div>
 
             </div>
             <div id="preview"></div>
 
             <div class="input-group">
-                <input type="name" id="name" class="input" required> 
-                <label for="name">Categoría</label>
+                <label for="category">Categoría</label>
+                <select name="category" required>
+                    <option value="">Seleciconar</option>
+                    <option value="perro">Artículo para perro</option>
+                    <option value="gato">Artículo para gato</option>
+                    <option value="varios">Varios</option>
+                </select>
             </div>
             
+            
             <div class="input-group">
-                <input type="name" id="name" class="input" required> 
+                <input type="name" id="name" class="input" maxlength="20" required> 
                 <label for="name">Nombre del producto</label>
             </div>
 
             <div class="input-group">
-                <input type="number" id="name" class="input" required> 
-                <label for="name">Precio del producto</label>
+                <input type="number" id="price" class="input" required> 
+                <label for="price">Precio del producto</label>
             </div>
 
             <div class="input-group">
-                <textarea id="mensaje"  rows="2" class="input" required></textarea> 
+                <textarea id="mensaje"  rows="2" class="input" maxlength="150" required></textarea> 
                 <label for="mensaje">Descripción del producto</label>
             </div>
         
@@ -127,8 +137,8 @@
         </div>
 
     </footer>
-    
-    <script src="./js/add-product.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/search-result.js"></script>
+    <script  src="./js/drop-file.js"></script>
+    <script  src="./js/add-product.js"></script>
 </body>
 </html>

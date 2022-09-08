@@ -23,8 +23,7 @@
 
 </head>
 <body>
-
-    <header>
+  <main>
         <nav class="menu">
             <div class="menu__container">
               <a href="index.html"><img src="./img/logo.png" alt="logo" class="menu__logo"></a>
@@ -34,10 +33,16 @@
                     <i class="fa-solid fa-magnifying-glass menu__search-icon"></i>
                 </div >
             </div>
-            <a href="login.html"  class="menu__login-btn">Login</a>
-            <i class="fa-solid fa-magnifying-glass menu__search-mobile"></i>
+
+
+            <div class="box menu__search-mobile">
+              <input type="text" class="search-input menu__input" name="txt" onmouseout="this.value = ''; this.blur();">
+              <i class="fas fa-search search-mobile-icon"></i>
+           </div>
+
+           <a href="login.html"  class="menu__login-btn">Login</a>
+
         </nav>
-      </header>
 
         <article class="carousel-boostrap">
 
@@ -88,14 +93,14 @@
     <section class="dog-section" id="dog-section">
         <div class="section__top">
             <h2 class="title-section">Articulos para Perro</h2>
-            <a href="#"  class="style-blue">Ver todo ⟶</a>
+            <a href="./see-products.html"  class="style-blue">Ver todo ⟶</a>
         </div>
         <div class="cards-container">
 
             <div class="card">
                 <img src="./img/article-dog-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Producto X</h5>
+                  <h5 class="card-title">Alimento Balanceado Dog Chow</h5>
                   <p class="card-text">$30.00</p>
                   <a href="#" class="style-blue card-view">Ver producto »</a>
                 </div>
@@ -153,7 +158,7 @@
 
         <div class="section__top">
             <h2 class="title-section">Articulos para Gato</h2>
-            <a href="#"  class="style-blue">Ver todo ⟶</a>
+            <a href="./see-products.html"  class="style-blue">Ver todo ⟶</a>
         </div>
         <div class="cards-container">
 
@@ -217,7 +222,7 @@
 
         <div class="section__top">
             <h2 class="title-section">Articulos varios</h2>
-            <a href="#"  class="style-blue">Ver todo ⟶</a>
+            <a href="./see-products.html"  class="style-blue">Ver todo ⟶</a>
         </div>
         <div class="cards-container">
 
@@ -277,7 +282,7 @@
             </div>
 
     </section>
-    
+  </main>
     <footer>
         <div class="footer__main">
             <div class="footer__links-container">
@@ -316,5 +321,9 @@
         </div>
 
     </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/search-result.js"></script>
+  <script src="./js/products.js"></script>
 </body>
 </html>

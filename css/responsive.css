@@ -7,14 +7,23 @@
         display: block;
     }
     .menu__logo{
-        width: 66%;
+        width: 96%;
+    }
+    .menu__container a{
+        width: 40%;
     }
     .menu__logo-add-product{
         width: 100%;
     }
     .menu__search-mobile{
-        display: block;
-        margin: 6%;
+        width: 136px;
+        margin: 4%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .search-mobile-icon{
+        margin: 4%;
     }
     .menu__search{
         display: none;
@@ -97,8 +106,8 @@
         width: 100% !important;
     }
     /*FORM*/
-    label{
-        font-size: .7rem;
+    label, select{
+        font-size: .7rem !important;
     }
 
     .login__btn {

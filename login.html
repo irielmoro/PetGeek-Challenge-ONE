@@ -21,16 +21,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="menu menu--logined">
+    <nav class="menu">
         <div class="menu__container">
-                          <a href="index.html"><img src="./img/logo.png" alt="logo" class="menu__logo"></a>
+          <a href="index.html"><img src="./img/logo.png" alt="logo" class="menu__logo"></a>
 
             <div class="menu__search">
                 <input type="text" class="menu__input" placeholder="¿Qué desea buscar?">
                 <i class="fa-solid fa-magnifying-glass menu__search-icon"></i>
             </div >
         </div>
-        <i class="fa-solid fa-magnifying-glass menu__search-mobile"></i>
+
+
+        <div class="box menu__search-mobile">
+          <input type="text" class="search-input menu__input" name="txt" onmouseout="this.value = ''; this.blur();">
+          <i class="fas fa-search search-mobile-icon"></i>
+       </div>
+
+       <a href="login.html"  class="menu__login-btn">Login</a>
+
     </nav>
 
 
@@ -41,7 +49,7 @@
         <form class="form-pattern login__form" data-login-form>
 
             <div class="input-group">
-                <input type="email" id="email" class="input" required data-input-email> 
+                <input type="email" id="email" class="input" required autofocus data-input-email> 
                 <label for="email">Correo Electrónico</label> 
             </div>
             
@@ -104,5 +112,7 @@
     </footer>
     
     <script src="./js/login.js"></script>
+  <script src="./js/search-result.js"></script>
+
 </body>
 </html>

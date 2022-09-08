@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Geek</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+
+    <!-- ICONS FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="./css/all-products.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- CAROUSEL BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="menu">
+        <div class="menu__container">
+          <a href="index.html"><img src="./img/logo.png" alt="logo" class="menu__logo"></a>
+
+            <div class="menu__search">
+                <input type="text" class="menu__input" placeholder="¿Qué desea buscar?">
+                <i class="fa-solid fa-magnifying-glass menu__search-icon"></i>
+            </div >
+        </div>
+
+
+        <div class="box menu__search-mobile">
+          <input type="text" class="search-input menu__input" name="txt" onmouseout="this.value = ''; this.blur();">
+          <i class="fas fa-search search-mobile-icon"></i>
+       </div>
+
+       <a href="login.html"  class="menu__login-btn">Login</a>
+
+    </nav>
+
+    <section class="see-products-section">
+        
+
+        <h2 class="title-section">Todos los productos</h2>
+
+        <div class="search-products all-products__cards">
+
+        </div>
+
+    </section>
+
+
+
+
+
+<footer>
+    <div class="footer__main">
+        <div class="footer__links-container">
+        <a href="index.html"><img src="./img/logo.png" alt="logo" class="footer__logo"></a>
+            <ul>
+                <li class="footer__link"><a href=""></a>Quienes somos</li>
+                <li class="footer__link"><a href=""></a>Política de privacidad</li>
+                <li class="footer__link"><a href=""></a>Programa de fidelidad</li>
+                <li class="footer__link"><a href=""></a>Nuestras Tiendas</li>
+                <li class="footer__link"><a href=""></a>Quiero ser franquiciado</li>
+                <li class="footer__link"><a href=""></a>Anúncie aquí</li>
+            </ul>
+        </div>
+        <div class="form-container">
+            <p style=" margin: 0; font-size: 1.1rem; font-weight: 800;">Hable con nosotros</p>
+            <form class="form-pattern">
+
+                <div class="input-group">
+                    <input type="text" id="nombre" class="input" required> 
+                    <label for="nombre">Nombre</label> 
+                </div>
+                
+
+                <div class="input-group">
+                    <textarea id="mensaje"  rows="2" class="input" required></textarea> 
+                    <label for="mensaje">Mensaje</label>
+                </div>
+                
+            
+                <input type="submit" value="Enviar mensaje" class="btn-blue">
+            </form>
+            
+        </div>
+    </div>
+
+    <div class="footer__author">
+        &copy Desarrollado por Iriel Moro <br> 2022
+    </div>
+
+</footer>
+  <script src="./js/see-products.js"></script>
+  <script src="./js/search-result.js"></script>
+</body>
+</html>
