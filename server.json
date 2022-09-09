@@ -1,0 +1,200 @@
+{
+  "products": [
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-dog-1.png",
+      "name": "Alimento Balanceado Dog Chow",
+      "price": "$30.00",
+      "id": "8a06cf97-51c7-4573-a1b9-06c35cf791a2"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-dog-2.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "c46ef405-888d-4f6a-93b4-79f261adf578"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-dog-3.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "696ab14a-933a-403f-8c1f-c76ffc67fa76"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-dog-4.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "045cde1b-36e0-45d3-b9d9-aa7ff4817f1a"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-dog-5.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "b218d833-dd48-46fb-a415-9fd76c2ab22d"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-dog-6.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "0d6d3165-2977-4e36-9cc4-7d7f8d5116d6"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-cat-1.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "4e8d2ccb-525c-4249-ac2d-e8a23a45a178"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-cat-2.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "6643fe8d-8637-4085-b1c4-84ab08e862b2"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-cat-3.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "45fbc8fa-ce92-4aa7-8484-7fa92089ebf8"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-cat-4.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "8154ad42-1b71-408c-a550-ec2ca832507e"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-cat-5.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "73ade142-9092-43e6-9925-9060f33d375e"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-cat-6.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "ecac4c63-3554-4f01-abcd-6c8a5c1ea261"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-various-1.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "d0f4b9e3-7d4e-4760-8ab1-ee80b9f6e0f8"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-various-2.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "d0f4b9e3-7d4e-4760-8ab1-ee80b9k6ecf8"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-various-3.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "d0f4b9e3-7d4e-4760-8ab1-ee80b9f5ecf8"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-various-4.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "d0f4b9e3-7d4e-4760-8ab1-ee80b9f6rcf8"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-various-5.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "d0f4b9e3-7d4e-4760-8ab1-ee80b2f6ecf8"
+    },
+    {
+      "image": "file:///C:/Users/abril/Desktop/ONE/Ruta2-Front-end/PetGeek/docs/img/article-various-6.png",
+      "name": "Producto X",
+      "price": "$30.00",
+      "id": "031d8efa-9424-4597-86bd-803bg88e743e"
+    },
+    {
+      "id": "7U0rimn"
+    },
+    {
+      "id": "P-ye6tw"
+    },
+    {
+      "id": "UeZDqyN"
+    },
+    {
+      "id": "Q2SwRID"
+    },
+    {
+      "id": "E2A_L-V"
+    },
+    {
+      "id": "4MwaDX5"
+    },
+    {
+      "id": "2dbdj71"
+    },
+    {
+      "id": "dZ9PVBG"
+    },
+    {
+      "id": "D0egnAA"
+    },
+    {
+      "id": "0dJPzy5"
+    },
+    {
+      "id": "Mo-Bw-t"
+    },
+    {
+      "id": "Ug3TYsC"
+    },
+    {
+      "id": "m-t70xZ"
+    },
+    {
+      "id": "Qr7C0Bl"
+    },
+    {
+      "id": "9jCA6LM"
+    },
+    {
+      "id": "4GTTiNT"
+    },
+    {
+      "id": "A6tqYrR"
+    },
+    {
+      "id": "5y7QQli"
+    },
+    {
+      "id": "OfTjNIy"
+    },
+    {
+      "id": "i8v59UA"
+    },
+    {
+      "id": "cpCCnso"
+    },
+    {
+      "id": "fUSIBxd"
+    },
+    {
+      "id": "IJ9MJNy"
+    },
+    {
+      "id": "TLqQz2v"
+    },
+    {
+      "id": "eQou7ri"
+    },
+    {
+      "id": "o7o-K9v"
+    },
+    {
+      "id": "hKaH6NW"
+    }
+  ],
+  "user": [
+    {
+      "email": "user@email.com",
+      "password": "user123",
+      "id": 1
+    }
+  ]
+}
