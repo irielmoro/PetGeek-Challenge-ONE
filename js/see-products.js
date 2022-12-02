@@ -1,9 +1,9 @@
 const products = ()=> fetch('http://localhost:3000/products').then( respuesta => respuesta.json());
-const searchTemplate = document.querySelector(".all-products__cards");
+const productsTemplate = document.querySelector(".all-products__cards");
 
 products().then( data =>{
     data.forEach(element => {
-
+        console.log(element.image)
         const img = element.image;
         const name = element.name;
         const price = element.price;
@@ -20,7 +20,7 @@ products().then( data =>{
             </div>
 
         `
-        searchTemplate.appendChild(card)
+        productsTemplate.appendChild(card)
             
     });
 })

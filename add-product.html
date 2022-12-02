@@ -56,8 +56,8 @@
                 <p> o </p>
     
                 <div class="input-group-file2">
+                    <input type="file" accept="image/*" id="file" class="input-file"  style="width: 0;height: 0;opacity: 0;" required>
                     <a class="btn-file2">Subir archivo</a>
-                    <input type="file" accept="image/*" id="file" class="input-file" required style="width: 0;height: 0;opacity: 0;">
                 </div>
 
             </div>
@@ -65,7 +65,7 @@
 
             <div class="input-group">
                 <label for="category">Categoría</label>
-                <select name="category" required>
+                <select name="category" id="category" required>
                     <option value="">Seleciconar</option>
                     <option value="perro">Artículo para perro</option>
                     <option value="gato">Artículo para gato</option>
@@ -85,11 +85,12 @@
             </div>
 
             <div class="input-group">
-                <textarea id="mensaje"  rows="2" class="input" maxlength="150" required></textarea> 
-                <label for="mensaje">Descripción del producto</label>
+                <textarea id="description"  rows="2" class="input" maxlength="150" required></textarea> 
+                <label for="description">Descripción del producto</label>
             </div>
         
             <input type="submit" value="Agregar Producto" class="btn-blue add__btn">
+        </form>
     </div>
 
 </section>
@@ -137,8 +138,10 @@
         </div>
 
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/search-result.js"></script>
-    <script  src="./js/drop-file.js"></script>
-    <script  src="./js/add-product.js"></script>
+    <script type="module" src="./js/drop-file.js"></script>
+    <script type="module" src="./js/add-product.js"></script>
 </body>
 </html>
